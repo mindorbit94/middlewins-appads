@@ -1,9 +1,6 @@
 {
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "public/app-ads.txt", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/app-ads.txt", "dest": "/public/app-ads.txt" }
+    { "src": "app-ads.txt", "use": "@vercel/static" }
   ]
 }
